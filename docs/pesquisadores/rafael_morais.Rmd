@@ -1,0 +1,19 @@
+---
+title: 'Rafael Morais de Souza <br> UFJF'
+image: 'http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4504205E3'
+links:
+  - label: LATTES
+    url: 'http://lattes.cnpq.br/1176395684123466'
+output:
+  postcards::trestles
+---
+
+
+<div style="text-align: justify">
+
+
+## Sobre o pesquisador
+
+
+Possui graduação em Ciências Econômicas e mestrado em Economia Aplicada, ambos pela Universidade Federal de Juiz de Fora. É doutor em Engenharia Elétrica (Métodos de Apoio à Decisão) pela Pontifícia Universidade Católica do Rio de Janeiro. Tem experiência na área de economia, com ênfase em economia aplicada e na área de análise e previsão de séries temporais. Professor Adjunto da Faculdade de Economia da Universidade Federal de Juiz de Fora.
+

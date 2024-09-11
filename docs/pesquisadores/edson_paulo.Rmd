@@ -1,0 +1,19 @@
+---
+title: 'Edson Paulo Domingues <br> UFMG'
+image: 'http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4707514U6'
+links:
+  - label: LATTES
+    url: 'http://lattes.cnpq.br/2059703319050475'
+output:
+  postcards::trestles
+---
+
+
+<div style="text-align: justify">
+
+
+## Sobre o pesquisador
+
+
+Professor Titular do Departamento de Ciências Econômicas; Pesquisador do Centro de Desenvolvimento e Planejamento Regional (Cedeplar) da Universidade Federal de Minas Gerais (UFMG). Pesquisador Visitante na Uiversidade de Illinois Urbana-Champaign (EUA) 2021-2022. Participante do Programa de Professor Visitante no Exterior (PVEX) financiado pela Capes, no Conter of Policy Studies da Victoria University (Australia) em 2018-19. Coordenador do NEMEA - Núcleo de Estudos em Modelagem Econômica e Ambiental Aplicada. Ex-Presidente da Associação Brasileira de Estudos Regionais (ABER). Bolsista de Produtividade em Pesquisa nível 2 (CNPq) . Graduado em Economia pela Universidade de São Paulo (1995), mestre em Economia de Empresas pela Fundação Getúlio Vargas - SP (1998) e Doutor em Economia pela Universidade de São Paulo (2002), com Doutorado-sanduíche na Universidade de Illinois Urbana-Champaign (2000-01). Tem experiência na área de Economia Aplicada, com ênfase em modelos de equilíbrio geral computável, atuando principalmente nos seguintes temas: economia regional, economia do meio ambiente, mudanças climáticas, e políticas comerciais e tributárias. Parecerista da Papers in Regional Science, Energy Economics, Energy Policy, Climate Policy, Revista Brasileira de Estudos Regionais e Urbanos, Revista de Economia e Sociologia Rural, Pesquisa e Planejamento Econômico, Nova Economia e Estudos Econômicos.
+

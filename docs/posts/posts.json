@@ -1,0 +1,44 @@
+[
+  {
+    "path": "posts/2024-05-01-exemplo-de-post/",
+    "title": "Maiores fornecedores de placas solares por mesorregião em Minas Gerais",
+    "description": "Dados referentes ao ano de 2023.",
+    "author": [
+      {
+        "name": "Bruno Luppe",
+        "url": "../../pesquisadores/bruno_luppe.html"
+      },
+      {
+        "name": "Paulo Augusto",
+        "url": "../../pesquisadores/paulo_augusto.html"
+      },
+      {
+        "name": "Victor Valério",
+        "url": "../../pesquisadores/victor_valerio.html"
+      }
+    ],
+    "date": "2024-05-22",
+    "categories": [],
+    "contents": "\r\n[Inserir texto]\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+    "preview": "posts/2024-05-01-exemplo-de-post/exemplo-de-post_files/figure-html5/unnamed-chunk-1-1.png",
+    "last_modified": "2024-07-16T20:01:27-03:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2024-05-22-post-de-exemplo-2/",
+    "title": "Post de exemplo 2",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Paulo Augusto Araújo Oliveira",
+        "url": {}
+      }
+    ],
+    "date": "2024-05-22",
+    "categories": [],
+    "contents": "\r\nUm vulcão com o Plotly\r\n\r\n\r\nlibrary(plotly)\r\nplot_ly(z = ~volcano) %>%\r\n  add_surface()\r\n\r\n\r\n\r\nUm mapa\r\n\r\n\r\nlibrary(leaflet)\r\nleaflet() %>%\r\n  addTiles() %>%\r\n  addMarkers(lng = 174.768, lat = -36.852, popup = \"Onde o R Nasceu\")\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2024-07-16T20:01:12-03:00",
+    "input_file": {}
+  }
+]

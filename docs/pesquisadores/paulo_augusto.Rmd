@@ -1,0 +1,19 @@
+---
+title: 'Paulo Augusto Araújo Oliveira <br> UNIFEI'
+image: 'http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K1585962D0'
+links:
+  - label: LATTES
+    url: 'http://lattes.cnpq.br/2482334415040394'
+output:
+  postcards::trestles
+---
+
+
+<div style="text-align: justify">
+
+
+## Sobre o pesquisador
+
+
+
+

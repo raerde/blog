@@ -1,0 +1,19 @@
+---
+title: 'Moisés Diniz Vassallo <br> UNIFEI'
+image: 'http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4228486H2'
+links:
+  - label: LATTES
+    url: 'http://lattes.cnpq.br/8821972747380756'
+output:
+  postcards::trestles
+---
+
+
+<div style="text-align: justify">
+
+
+## Sobre o pesquisador
+
+
+Moisés Diniz Vassallo é graduado em economia pela FEA-USP de São Paulo, mestre em engenharia de infraestrutura aeronáutica pelo ITA de São José dos Campos e doutor em teoria econômica também pela FEA-USP de São Paulo. Suas áreas de atuação são economia dos transportes, organização industrial, turismo e análise de impactos econômicos. Atualmente é professor adjunto no Instituto de Engenharia de Produção e Gestão da UNIFEI. 
+

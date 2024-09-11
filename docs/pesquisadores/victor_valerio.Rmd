@@ -1,0 +1,26 @@
+---
+title: 'Victor Eduardo de Mello Valerio <br> UNIFEI'
+image: 'http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K8186028P6'
+links:
+  - label: LATTES
+    url: 'http://lattes.cnpq.br/1989464933096922'
+output:
+  postcards::trestles
+---
+
+
+<div style="text-align: justify">
+
+
+## Sobre o pesquisador
+
+
+Possui graduação em ciências econômicas pela Universidade Estadual Paulista Júlio de Mesquita Filho 
+(2011), mestrado em engenharia de produção pela Universidade Federal de Itajubá (2015) e doutorado 
+em engenharia de produção pela Universidade Federal de Itajubá (2018), foi bolsista da CAPES em 
+ambos os casos. Atualmente é professor adjunto da Universidade Federal de Itajubá no Instituto de 
+Engenharia de Produção e Gestão. É revisor de congressos nacionais na área de análise financeira de 
+investimentos, pesquisa operacional, projetos de energia renovável e previsão. Tem experiência 
+profissional e acadêmica na área de economia e engenharia de produção, com ênfase em Métodos e
+Modelos Matemáticos, Econométricos e Estatísticos.
+

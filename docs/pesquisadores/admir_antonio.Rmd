@@ -1,0 +1,19 @@
+---
+title: 'Admir Antonio Betarelli Junior <br> UFJF'
+image: 'http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4504399A4'
+links:
+  - label: LATTES
+    url: 'http://lattes.cnpq.br/3620301469610793'
+output:
+  postcards::trestles
+---
+
+
+<div style="text-align: justify">
+
+
+## Sobre o pesquisador
+
+
+Possui Graduação em Ciências Econômicas pela Universidade Metodista de Piracicaba (2005), Mestrado em Economia Aplicada pela Universidade Federal de Juiz de Fora (2007) e Doutorado em Economia pela Universidade Federal de Minas Gerais (2013), com Doutorado-sanduíche na Universidade de Illinois Urbana-Champaign (2011-2012) e Pós-Doutorado em Economia pela Universidade Federal de Minas Gerais (2014). Atualmente é Professor Adjunto do Departamento de Economia da Universidade Federal de Juiz de Fora (UFJF), onde atua na graduação e na pós-graduação, lecionando cursos na área de Teoria Econômica, Métodos estatísticos de multivariada e Equilíbrio Geral Computável. Atua como Professor colaborador da Pós-graduação em Desenvolvimento, Planejamento e Território da Universidade Federal de São João Del-Rei, como Pesquisador do Laboratório de Análises Territoriais e Setoriais (LATES/UFJF) e Coeditor da Revista Brasileira de Estudos Regionais e Urbanos (2024 - ). Exerceu o cargo de Presidente do comitê científico do ENABER (2021-2022) e Coordenador do Programa de Pós-Graduação em Economia (2021-2024). Possui também experiências como consultor técnico em projetos nacionais e internacionais (Nações Unidas/CEPAL/IPEA, SEF, SAC, CNPq e Fapemig, entre outros órgãos) e como revisor de estudos aplicados em periódicos nacionais e internacionais. Tem experiência na área de Economia com atuação em linhas de pesquisa como Economia dos Transportes e Economia Regional e Urbana, Crescimento e Desenvolvimento Econômico, Economia Brasileira, Comércio Internacional, Estrutura Produtiva Brasileira, Análise Regional e Setorial (transporte, indústria, combustíveis e comunicação), Impactos de Políticas Econômicas, Renda e Tributação. Seus trabalhos caracterizam-se principalmente pelo desenvolvimento e aplicação modelos de insumo-produto, de equilíbrio geral computável e Contabilidade Nacional.
+

@@ -1,0 +1,19 @@
+---
+title: 'André Luis Ribeiro Lima <br> UFLA'
+image: 'http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4776220E6'
+links:
+  - label: LATTES
+    url: 'http://lattes.cnpq.br/3411199710413248'
+output:
+  postcards::trestles
+---
+
+
+<div style="text-align: justify">
+
+
+## Sobre o pesquisador
+
+
+Doutor, mestre e graduado em Administração pela Universidade Federal de Lavras (UFLA). É professor da área de Finanças do Departamento de Administração e Economia (DAE/UFLA). Foi professor da carreira docente da Pontifícia Universidade Católica de Minas Gerais (PUC Minas) onde coordenou cursos de pós-graduação (especialização) em Controladoria Financeira e Gestão Estratégica de Finanças. Foi coordenador do curso de Bacharelado em Administração da UFLA no período de 2016 a 2020. Atualmente é Tutor do Programa de Educação Tutorial (PET) do curso de Administração (UFLA). Tem experiência profissional tendo atuado principalmente na administração financeira, gestão de custos, precificação, avaliação de empresas (Valuation) e na elaboração e análise de projetos de investimento. Tem atuado também com as temáticas de Finanças Pessoais e Comportamentais na docência, projetos de pesquisa e extensão.
+
