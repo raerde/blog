@@ -1,0 +1,31 @@
+---
+title: "Post de exemplo 2"
+description: |
+  A short description of the post.
+author:
+  - name: Paulo Augusto Araújo Oliveira
+    affiliation: Universidade Federal de Itajubá
+    affiliation_url: https://unifei.edu.br
+date: 2024-05-22
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+Um vulcão com o Plotly
+
+```{r}
+library(plotly)
+plot_ly(z = ~volcano) %>%
+  add_surface()
+```
+
+Um mapa
+
+```{r}
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%
+  addMarkers(lng = 174.768, lat = -36.852, popup = "Onde o R Nasceu")
+```
+
