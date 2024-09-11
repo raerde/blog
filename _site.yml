@@ -1,0 +1,78 @@
+name: 'RAERDE-blog'
+
+title: 'RAERDE BLOG'
+
+output_dir: 'docs'
+
+navbar:
+
+  right:
+
+    - icon: 'fa-home'
+      href: sobre.html
+
+    - text: 'PESQUISADORES'
+      menu:
+      
+      - text: 'ADMIR ANTONIO'
+        href: pesquisadores/admir_antonio.html 
+        
+      - text: 'ANDRÉ LUIS RIBEIRO'
+        href: pesquisadores/andre_luis.html 
+        
+      - text: 'ANDRÉ LUIZ MEDEIROS' 
+        href: pesquisadores/andre_luiz.html 
+        
+      - text: 'BRUNO LUPPE'
+        href: pesquisadores/bruno_luppe.html 
+        
+      - text: 'EDSON PAULO' 
+        href: pesquisadores/edson_paulo.html 
+        
+      - text: 'FERNANDO SALGUEIRO' 
+        href: pesquisadores/fernando_salgueiro.html 
+        
+      - text: 'MOISÉS DINIZ'
+        href: pesquisadores/moises_diniz.html 
+        
+      - text: 'PAULO AUGUSTO'
+        href: pesquisadores/paulo_augusto.html 
+        
+      - text: 'RAFAEL MORAIS'
+        href: pesquisadores/rafael_morais.html 
+        
+      - text: 'VICTOR VALÉRIO'
+        href: pesquisadores/victor_valerio.html     
+        
+      - text: 'WESLEM RODRIGUES'
+        href: pesquisadores/weslem_rodrigues.html 
+        
+#    - text: 'PROJETOS'
+#      menu:
+#
+#      - text: ' '
+#        
+#      - text: ' '
+
+#    - text: 'PARCERIAS'
+#      menu:
+
+#      - text: ' '
+
+#      - text: ' '
+
+#    - text: 'DASHBOARD'
+    
+#    - text: 'CONTATO'
+
+output:
+  distill::distill_article:
+
+    self_contained: false
+
+    includes:
+      in_header:
+      - 'barra_pesquisa.html'
+      - 'modificar_publicacao3.html'
+      
+theme: modelo_final.css

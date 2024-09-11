@@ -1,0 +1,9 @@
+<!-- Código em JS que substitui o "Search..." da barra de pesquisa por "Buscar..." -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var searchBox = document.querySelector('#distill-search');
+    if (searchBox) {
+      searchBox.setAttribute('placeholder', 'Buscar...');
+    }
+  });
+</script>

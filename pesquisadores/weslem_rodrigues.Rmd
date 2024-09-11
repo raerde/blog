@@ -1,0 +1,19 @@
+---
+title: 'Weslem Rodrigues Faria <br> UFJF'
+image: 'http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4550922A4'
+links:
+  - label: LATTES
+    url: 'http://lattes.cnpq.br/4105225659516241'
+output:
+  postcards::trestles
+---
+
+
+<div style="text-align: justify">
+
+
+## Sobre o pesquisador
+
+
+Possui graduação em Ciências Econômicas pela Universidade Federal de Juiz de Fora (2006), mestrado em Economia Aplicada pela Universidade Federal de Minas Gerais (2009) e Doutorado em Teoria Econômica pela Universidade de São Paulo (IPE/USP). Tem experiência na área de Economia com atuação em linhas de pesquisa como economia do meio ambiente e dos recursos naturais, desenvolvimento econômico, análise regional e setorial (principalmente agrícola, energia, transporte e comunicação) e comércio internacional. Os principais métodos aplicados nos estudos desenvolvidos são modelos econométricos, modelos de equilíbrio geral computável e modelos de insumo-produto.
+

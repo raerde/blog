@@ -1,0 +1,170 @@
+
+
+/*------------------------------------------------------------------------------------------------*/
+/*-- IMPORTANDO AS FONTES A SEREM UTILIZADAS --*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Unica+One');
+@import url('https://fonts.googleapis.com/css2?family=Archivo');
+@import url('https://fonts.googleapis.com/css2?family=Archivo');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black');
+
+
+/*------------------------------------------------------------------------------------------------*/
+/*-- IMPORTANDO AS FONTES A SEREM UTILIZADAS --*/
+
+
+html {
+  /*-- Principais Tamanhos de fontes --*/
+  --title-size:      50px;    /*-- TÍTULOS DOS POSTS E TÍTULOS DOS TEMAS --*/
+  --body-size:       14px;    /*-- TEXTOS DOS TEMAS --*/
+  --code-size:       14px;    /*-- CÓDIGO NO POST --*/
+  --aside-size:      14px;
+  --fig-cap-size:    14px;
+  /*-- Principais Cores de Fontes --*/
+  --title-color:     #006B94; /*-- TÍTULOS DOS POSTS E TÍTULOS DOS TEMAS --*/
+  --header-color:    #006B94; /*-- TÍTULOS DOS POSTS NA PÁG INICIAL --*/
+  --body-color:      #384955; /*-- TEXTOS DOS TEMAS --*/
+  --aside-color:     #75AD4E;
+  --fig-cap-color:   #75AD4E;
+  /*-- Especificando os Tipos de Fontes --*/
+  --heading-font:    'Archivo Black'; /* Antes era a Unica One */
+  --mono-font:       'Archivo'; /*-- CÓDIGO NO POST --*/ /* Antes era a Inconsolata */
+  --body-font:       'Archivo'; /*-- TODOS OS TEXTOS --*/
+  --navbar-font:     'Archivo Black';  
+}
+
+
+/*------------------------------------------------------------------------------------------------*/
+/*-- CABEÇALHO DO BLOG --*/
+
+
+.distill-site-header {
+  --title-size:       25px;    /*-- TAMANHO DO NOME DO BLOG --*/
+  --text-color:       white; /*-- COR DO TEXTO SEM O MOUSE --*/
+  --text-size:        14px;    /*-- TAMANHO DOS ITENS --*/
+  --hover-color:      #006B94;   /*-- COR DO TEXTO AO PASSAR O MOUSE --*/
+  --bkgd-color:       #75AD4E; /*-- COR DE FUNDO DO CABEÇALHO --*/
+}
+
+
+.distill-site-header {
+  font-weight: bold;           /*-- NEGRITO EM TODO O CABEÇALHO --*/
+}
+
+
+/*------------------------------------------------------------------------------------------------*/
+/*-- CABEÇALHO DO ARTIGO --*/
+
+
+/*-- CABEÇALHO DOS ARTIGOS --*/
+d-byline {
+  --heading-size:    14px;    /*-- NO POST, autor, afiliação, data --*/
+  --heading-color:   #006B94; /*-- NO POST, autor, afiliação, data --*/
+  --body-size:       14px;    /*-- NO POST, autor, afiliação, data --*/
+  --body-color:      #384955; /*-- NO POST, autor, afiliação, data --*/
+}
+
+
+d-byline h3 {
+  font-weight: bold;  /*-- NEGRITO NOS TÍTULOS DOS AUTORES, NOME, INSTITUIÇÃO, DATA --*/
+}
+
+
+d-byline {
+  font-weight: bold;  /*-- NEGRITO NOS NOMES DAS INSTITUIÇÕES E NA DATA --*/
+}
+
+
+d-byline a.name {
+  font-weight: bold;  /*-- NEGRITO NOS NOMES DOS AUTORES --*/
+}
+
+
+/*------------------------------------------------------------------------------------------------*/
+/*-- TEXTO DO RESUMO DOS ARTIGOS E DO RESUMO DOS TEMAS --*/
+
+
+d-title p {
+  font-weight: bold;
+  color:       #384955;
+  font-size:   14px;
+}
+
+
+/*------------------------------------------------------------------------------------------------*/
+/*-- TEXTO DO RESUMO DO ARTIGO E DOS TEMAS --*/
+
+
+d-article p, d-article ul, d-article ol, d-article blockquote {
+  font-weight: bold;
+  color:       #384955;
+  font-size:   14px;
+}
+
+
+/*------------------------------------------------------------------------------------------------*/
+/*-- TEXTO DO RESUMO DO ARTIGO E DOS TEMAS --*/
+
+
+.posts-list .metadata {
+  font-weight: bold;
+  color:       #384955;
+  font-size:   14px;
+}
+
+
+/*------------------------------------------------------------------------------------------------*/
+/*-- PESQUISADORES --*/
+
+
+body, .posts-list .post-preview p, .posts-list .description p {
+  font-family: 'Archivo';
+  font-weight: bold;
+  color:       #384955; /* Cor da descrição do post na página inicial */
+  font-size:   14px;
+}
+
+
+h1, h2, h3, h4, h5, h6, .posts-list .post-preview h2, .posts-list .description h2 {
+  font-family: 'Archivo Black';
+  font-weight: bold;
+  color:       #006B94;/* Cor do título do post*/
+  font-size:   26px;
+}
+
+
+/*------------------------------------------------------------------------------------------------*/
+/*-- VARIADOS --*/
+
+
+.nav-search {
+  font-family: 'Archivo';
+  font-weight: bold;
+  color:       #384955;/* Cor da fonte ao digitar na barra de pesquisa */
+  font-size:   14px;
+}
+
+
+
+
+.d-contents {
+  --heading-size:    14px;
+  --contents-size:   14px;
+}
+
+
+.distill-site-footer {
+  --text-color:       rgba(255, 255, 255, 0.8);
+  --text-size:        18px;
+  --hover-color:      #75AD4E;
+  --bkgd-color:       #006B94;
+}
+
+
+d-appendix {
+  --heading-size:    18px;
+  --heading-color:   rgba(0, 0, 0, 0.65);
+  --text-size:       0.8em;
+  --text-color:      rgba(0, 0, 0, 0.5);
+}

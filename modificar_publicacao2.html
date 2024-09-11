@@ -1,0 +1,50 @@
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Função para traduzir a data para o formato desejado
+    function translateDate(dateElement) {
+      var dateText = dateElement.textContent;
+      // Supondo que a data esteja no formato "Month Day, Year"
+      var date = new Date(dateText);
+      var formattedDate = date.toLocaleDateString('pt-BR', {
+        day: '2-digit',
+        month: 'long',
+        year: 'numeric'
+      });
+      dateElement.textContent = formattedDate;
+    }
+
+    // Altera os rótulos dos autores
+    var authorLabels = document.querySelectorAll('.dt-author');
+    authorLabels.forEach(function(authorLabel) {
+      authorLabel.textContent = 'Autor: ' + authorLabel.textContent;
+    });
+    
+    // Altera os rótulos das afiliações
+    var affiliationLabels = document.querySelectorAll('.affiliation-label');
+    affiliationLabels.forEach(function(affiliationLabel) {
+      affiliationLabel.textContent = 'Afiliação: ' + affiliationLabel.textContent;
+    });
+    
+    // Altera os rótulos das datas
+    var dateLabels = document.querySelectorAll('.publishedDate');
+    dateLabels.forEach(function(dateLabel) {
+      dateLabel.textContent = 'Data: ' + dateLabel.textContent;
+      translateDate(dateLabel); // Chama a função para traduzir a data
+    });
+    
+    // Muda a forma plural de autores/afiliações
+    var authorsAffiliationsGrid = document.querySelector('.authors-affiliations');
+    if (authorsAffiliationsGrid) {
+      var authorsHeader = authorsAffiliationsGrid.querySelector('h3:contains("Authors")');
+      var affiliationsHeader = authorsAffiliationsGrid.querySelector('h3:contains("Affiliations")');
+      if (authorLabels.length === 1) {
+        if (authorsHeader) {
+          authorsHeader.textContent = 'Autor';
+        }
+        if (affiliationsHeader) {
+          affiliationsHeader.textContent = 'Afiliação';
+        }
+      }
+    }
+  });
+</script>

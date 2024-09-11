@@ -1,0 +1,35 @@
+<!-- Código em JS que traduz a data de publicação no início do blog -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Altera os rótulos dos autores
+    var authorLabels = document.querySelectorAll('.dt-author');
+    authorLabels.forEach(function(authorLabel) {
+      authorLabel.textContent = '' + authorLabel.textContent;
+    });
+    
+     // Altera os rótulos das afiliações
+    var affiliationLabels = document.querySelectorAll('.dt-affiliation');
+    affiliationLabels.forEach(function(affiliationLabel) {
+      affiliationLabel.textContent = 'Afiliação: ' + affiliationLabel.textContent;
+    });
+    
+    // Altera os rótulos das datas
+    var dateLabels = document.querySelectorAll('.publishedDate');
+    dateLabels.forEach(function(dateLabel) {
+      dateLabel.textContent = 'Data: ' + dateLabel.textContent;
+    });
+
+    // Alterar o formato da data, se necessário
+    dateLabels.forEach(function(dateElement) {
+      var dateText = dateElement.textContent.replace('Data: ', ''); // Remove o prefixo "Data: "
+    // Supondo que a data esteja no formato "Month Day, Year"
+      var date = new Date(dateText);
+      var formattedDate = date.toLocaleDateString('pt-BR', {
+        day: '2-digit',
+        month: 'long',
+        year: 'numeric'
+      });
+      dateElement.textContent = '' + formattedDate;
+    });
+  });
+</script>
