@@ -17,20 +17,11 @@ Foram analisados os dados referentes a participação percentual, para produçã
 Para a melhor visualização dos dados serão apresentados a distribuição espacial das variáveis trabalhadas, por meio de quatro mapas, a saber: a) distribuição espacial da participação da produção das microrregiões no total do estado; b) distribuição espacial da participação do consumo das famílias das microrregiões no total do estado; c) distribuição espacial da participação do investimento das microrregiões no total do estado; e d) distribuição espacial da participação dos gastos do governo das microrregiões no total do estado.
 Ao observar a Figura 1 a 4 verifica-se um padrão espacial muito semelhante para todas as variáveis. A microrregião de Belo Horizonte como a de maior importância, seguida pela microrregião de Uberlândia. Além disso, verifica-se um caráter radial a partir de Belo Horizonte, ou seja, microrregiões vizinhas à Belo Horizonte, com participação relativa mais proeminente que microrregiões localizada, por exemplo, no norte do Estado.
 
-
 **Figura 1: Distribuição Espacial dos Fluxos de Produção em MG**
-
-*Figura 2: Distribuição Espacial do Consumo das Famílias em MG*
-
-*Figura 3: Distribuição Espacial dos Gastos do Governo em MG*
-
-*Figura 4: Distribuição Espacial dos Gastos do Governo em MG*
-
 
 Outro aspecto importante para entender a dinâmica econômica das microrregiões de Minas Gerais é a relação entre capital e trabalho. Para esse texto, será apresentado a razão entre o somatório dos fatores capital e trabalho, pela população de cada microrregião mineira. Dessa forma, será possível identificar em quais regiões se localizam as regiões com maior valor adicionado per capita no Estado.
 Nesse aspecto, destacaram-se Uberlândia, com um valor adicionado per capita, mensurado por: fatores primários/população de R$128.581 seguido por Ouro Preto (R$106.260); Pouso Alegre (R$52.827); Conselheiro Lafaiete (R$50.206) e Juiz de Fora (R$44.089). Nessa métrica a região metropolitana e a capital Belo Horizonte não figura entre as principais regiões com alto valor adicionado em capital e trabalho, ocupando o nono lugar com (R$31,231). A figura 5 apresenta o mapa com essa relação auxilia na compreensão da distribuição espacial desse indicador. 
 
-*Figura 5: Razão entre Capital-Trabalho e População em MG*
 
 Nota-se maior concentração de valor adicionado nas regiões centrais do Estado, com prevalência em Ouro Preto, e nas regiões nas adjacências de Belo Horizonte. No Triângulo Mineiro, o destaque é Uberlândia. Em termos espaciais, percebe-se maior destaque para a porção do sudoeste do estado. O Norte de Minas e o Vale do Mucuri e Jequitinhonha, apresentam os menores valores adicionados, o que corrobora com a premissa da heterogeneidade estadual, também no âmbito da formação de renda. Tal região apresenta os menores indicadores de atividade produtiva, como também sob a ótica da razão entre capital-trabalho e a população da região. 
 Com base nos dados apresentados pode-se entender de forma geral a dinâmica econômica do Estado de Minas Gerais, notando uma heterogeneidade no que se refere aos fluxos comerciais, e um predomínio de regiões como Belo Horizonte, Uberlândia, Uberaba e Juiz de Fora, nos principais fluxos comerciais do Estado. 
