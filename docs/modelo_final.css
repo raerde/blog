@@ -168,3 +168,12 @@ d-appendix {
   --text-size:       0.8em;
   --text-color:      rgba(0, 0, 0, 0.5);
 }
+
+/* Alteracoes feitas para o negrito sem aplicado no texto*/
+strong, b {
+    font-weight: bold;
+}
+
+d-article p, d-article ul, d-article ol, d-article blockquote {
+    font-weight: normal;
+}

@@ -2353,6 +2353,15 @@ d-appendix {
   --heading-color:   rgba(0, 0, 0, 0.65);
   --text-size:       0.8em;
   --text-color:      rgba(0, 0, 0, 0.5);
+}
+
+/* Alteracoes feitas para o negrito sem aplicado no texto*/
+strong, b {
+    font-weight: bold;
+}
+
+d-article p, d-article ul, d-article ol, d-article blockquote {
+    font-weight: normal;
 }</style>
 <style type="text/css">
 /* base style */
@@ -2635,7 +2644,7 @@ PESQUISADORES
 <div class="d-article">
 <p>O Estado de Minas Gerais apresenta grande heterogeneidade social e regional, como apresentado em nosso <a href="https://raerde.com.br/posts/2024-05-22-post-de-exemplo-2/"><strong>texto</strong></a>, portanto, acredita-se que a distribuição das instalações fotovoltaicas não será uniforme. Isso ocorre, pois para que se ocorra o investimento na geração solar é necessário investimento privado ou público, e também questões climáticas e demográficas favoráveis. Nesse texto, apresentaremos a distribuição espacial da geração fotovoltaica distribuída e residencial no Estado de Minas Gerais, com objetivo de identificar clusters regionais e locais com potencialidades inexploradas, e que podem ser alvo de políticas públicas com objetivo de expandir a geração no Estado.
 Inicialmente, para testar de maneira formal a hipótese de que as instalações fotovoltaicas não se distribuem espacialmente de maneira uniforme no estado foi utilizado um indicador conhecido por I de Moran. O valor desse indicador foi estatisticamente significativo e corroborou com a hipótese inicial. A partir desse resultado, foram serão apresentados três mapas para ilustrar a geração fotovoltaica residencial no Estado. O primeiro mapa ilustra a distribuição das instalações fotovoltaicas. O segundo e o terceiro mapa são relacionados com fatores que se correlacionam positivamente com a geração fotovoltaica, sendo eles: salário médio da população, e um indicador de recurso solar. Essas variáveis foram escolhidas, pois segundo a literatura são fatores que impulsionam a geração solar.</p>
-<p>Figura 1: Clusters – Potência Instalada</p>
+<p><strong>Figura 1: Clusters – Potência Instalada</strong></p>
 <p>Por meio da Figura 1, é possível identificar clusters espaciais na potência instalada em geração solar no estado de Minas Gerais. Nota-se, em especial, a região do Triângulo Mineiro, Noroeste de Minas e a Região Metropolitana de Belo Horizonte, como as regiões que abrigam os clusters alto-alto na geração fotovoltaica no estado. Nessas localidades estão dispostos municípios que apresentam uma alta geração fotovoltaica e cujo vizinhos também apresentam a mesma característica.
 Entretanto, além do cluster de alta-alta geração, também se nota a presença de alguns clusters de baixa-baixa geração. Essa classe, compreende municípios com baixa geração fotovoltaica instalada, e que são cercados por vizinhos com essa mesma característica. É o caso, principalmente, das regiões da Zona da Mata, Vale do Mucuri e Jequitinhonha e a região Central mineira. Nessas regiões supracitadas, a geração fotovoltaica apresenta um padrão inferior à média contabilizada no estado.
 Os dados da variável de potência instalada dizem respeito ao somatório das potências geradas por cada um dos módulos fotovoltaicos presentes nos municípios mineiros. Essas instalações se referem a geração residencial, portanto, a instalação cabe aos habitantes das cidades, sendo assim, fatores socioeconômicos terão peso na escolha em se instalar ou não a energia solar.
