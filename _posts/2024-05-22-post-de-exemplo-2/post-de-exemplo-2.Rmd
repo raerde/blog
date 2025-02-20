@@ -6,32 +6,146 @@ author:
   - name: X
     affiliation: Universidade Federal de Itajubá
     affiliation_url: https://unifei.edu.br
-date: 2024-11-20
+date: 2025-03-01
 output:
   distill::distill_article:
     self_contained: false
 ---
 
-O Estado de Minas Gerais é formado por 853 municípios que, de acordo com a classificação do Instituto Brasileiro de Geografia e Estatística (IBGE), são agregados em 66 microrregiões e 12 mesorregiões. O estado tem área de 586.513,983 km² tornando-o o quarto mais extenso do país, e o segundo mais populoso. Minas Gerais, assim como o Brasil, apresenta indicadores socioeconômicos bastante díspares entre suas regiões. Tal heterogeneidade pode afetar, por exemplo, a distribuição e absorção de novas tecnologias de produção, como por exemplo a geração solar. Portanto, nesse texto vamos explorar a dinâmica econômica do estado de Minas Gerais, por meio da análise da distribuição territorial dos agregados macroeconômicos (e.g. produção, consumo das famílias, investimento e gastos do governo). Para mensurar de maneira adequada a dinâmica econômica do Estado, serão utilizadas as 66 microrregiões mineiras como recorte regional do estudo. Com tal agregação, será possível entender as particularidades de cada região do estado, e contribuir para a implementação de políticas públicas de cunho territorial. Duas análises serão realizadas, sendo a primeira a avaliação sob a ótica da produção e seu destino e a segunda sobre a ótica da distribuição espacial da renda per capita. 
+<!-- Essa função justifica os textos, mas por consequencia justifica também os títulos e legendas das imagens -->
+```{css, echo=FALSE}
+p {
+  text-align: justify;
+}
+```
+
+
+```{r message=FALSE, warning=FALSE, include=FALSE}
+#Verificar se realmente é necessário que o código fique dentro da publicação (acho que sim).
+library(geobr)
+library(ggplot2)
+library(readxl)
+library(dplyr)
+library(viridis)
+library(colorspace)
+
+options(scipen = 999)
+
+dados <- read_xlsx("R_Macro_Micro2.xlsx") #Verificar com o Victor se é a melhor forma de se fazer (coloquei uma cópia do arquivo diretamente na pasta da publicação)
+
+shp <- geobr::read_micro_region()
+
+shp_minas <- shp %>% 
+  filter(abbrev_state == "MG")
+
+shp_merge <- merge(shp_minas, dados[,c("cod", "prod","consumo","investimento","governo","fatores")], by.x = "code_micro", by.y = "cod", all.x = TRUE)
+
+plot_consumo <- ggplot(data = shp_merge) +
+  geom_sf(aes(fill = consumo)) +
+  scale_fill_continuous_sequential(palette = "Heat") +
+  theme_minimal() +
+  labs(fill = "Consumo") # , title = "Consumo das Famílias")
+
+plot_producao <- ggplot(data = shp_merge) +
+  geom_sf(aes(fill = prod)) +
+  scale_fill_continuous_sequential(palette = "Heat") +  
+  theme_minimal() +
+  labs(fill = "Produção") # , title = "Produção")
+
+plot_investimento <- ggplot(data = shp_merge) +
+  geom_sf(aes(fill = investimento)) +
+  scale_fill_continuous_sequential(palette = "Heat") +  
+  theme_minimal() +
+  labs(fill = "Investimentos") # , title = "Investimento")
+
+plot_governo <- ggplot(data = shp_merge) +
+  geom_sf(aes(fill = governo)) +
+  scale_fill_continuous_sequential(palette = "Heat") +  
+  theme_minimal() +
+  labs(fill = "Gastos do governo") # , title = "Gasto do Governo")
+
+plot_fatores <- ggplot(data = shp_merge) +
+  geom_sf(aes(fill = fatores)) +
+  scale_fill_continuous_sequential(palette = "Heat") +  
+  theme_minimal() +
+  labs(fill = "Fatores") # , title = "Fatores Primários/População")
+```
+O Estado de Minas Gerais é formado por 853 municípios que, de acordo com a classificação do Instituto Brasileiro de Geografia e Estatística (IBGE), são agregados em 66 microrregiões e 12 mesorregiões. O estado tem área de 586.513,983 km² tornando-o o quarto mais extenso do país, e o segundo mais populoso. Minas Gerais, assim como o Brasil, apresenta indicadores socioeconômicos bastante díspares entre suas regiões. Tal heterogeneidade pode afetar, por exemplo, a distribuição e absorção de novas tecnologias de produção, como por exemplo a geração solar. Portanto, nesse texto vamos explorar a dinâmica econômica do estado de Minas Gerais, por meio da análise da distribuição territorial dos agregados macroeconômicos (e.g. produção, consumo das famílias, investimento e gastos do governo). Para mensurar de maneira adequada a dinâmica econômica do Estado, serão utilizadas as 66 microrregiões mineiras como recorte regional do estudo. Com tal agregação, será possível entender as particularidades de cada região do estado, e contribuir para a implementação de políticas públicas de cunho territorial. Duas análises serão realizadas, sendo a primeira a avaliação sob a ótica da produção e seu destino e a segunda sobre a ótica da distribuição espacial da renda per capita.
+
+
 Foram analisados os dados referentes a participação percentual, para produção, consumo das famílias, investimento e gastos do governo, de cada microrregião em relação ao total estadual para o ano base do modelo, 2015. Ao analisar os resultados é nítido o caráter heterogêneo do estado de Minas Gerais.  A microrregião de Belo Horizonte, que contempla a capital do estado e sua região metropolitana, é responsável por cerca de 32% da produção, 28% dos gastos das famílias e 32% do investimento. A microrregião de Uberlândia, contribui com cerca de 7% do total produzido no estado, sendo seguida pelas microrregiões de Juiz de Fora (3,4%) e Ipatinga (3,2%). Assim sendo, cerca de 45% da produção do estado está concentrada em quatro microrregiões.  Por outro lado, em termos espaciais, algumas microrregiões localizadas no Vale do Mucuri e Jequitinhonha, apresentam as menores participações na produção mineira, como o caso de Araçuaí (0,1%), Almenara (0,2%) e Pedra Azul (0,1%). 
+
+
 Para a melhor visualização dos dados serão apresentados a distribuição espacial das variáveis trabalhadas, por meio de quatro mapas, a saber: a) distribuição espacial da participação da produção das microrregiões no total do estado; b) distribuição espacial da participação do consumo das famílias das microrregiões no total do estado; c) distribuição espacial da participação do investimento das microrregiões no total do estado; e d) distribuição espacial da participação dos gastos do governo das microrregiões no total do estado.
+
+
 Ao observar a Figura 1 a 4 verifica-se um padrão espacial muito semelhante para todas as variáveis. A microrregião de Belo Horizonte como a de maior importância, seguida pela microrregião de Uberlândia. Além disso, verifica-se um caráter radial a partir de Belo Horizonte, ou seja, microrregiões vizinhas à Belo Horizonte, com participação relativa mais proeminente que microrregiões localizada, por exemplo, no norte do Estado.
 
+
+<!-- Averiguar os títulos -->
 <div class="map-title">
   Figura 1: Distribuição Espacial dos Fluxos de Produção em MG
 </div>
+```{r echo=FALSE}
+plot_producao
+```
+<div class="map-source">
+  Fonte: Elaborado pelos autores com base no modelo SOLAR-MG.
+</div>
 
 
+<div class="map-title">
+  Figura 2: Distribuição Espacial do Consumo das Famílias em MG
+</div>
+```{r echo=FALSE}
+plot_consumo
+```
+<div class="map-source">
+  Fonte: Elaborado pelos autores com base no modelo SOLAR-MG.
+</div>
+
+
+<div class="map-title">
+  Figura 3: Distribuição Espacial da Participação no Investimento em MG
+</div>
+```{r echo=FALSE}
+plot_investimento
+```
+<div class="map-source">
+  Fonte: Elaborado pelos autores com base no modelo SOLAR-MG.
+</div>
+
+
+<div class="map-title">
+  Figura 4: Distribuição Espacial dos Gastos do Governo em MG
+</div>
+```{r echo=FALSE}
+plot_governo
+```
 <div class="map-source">
   Fonte: Elaborado pelos autores com base no modelo SOLAR-MG.
 </div>
 
 Outro aspecto importante para entender a dinâmica econômica das microrregiões de Minas Gerais é a relação entre capital e trabalho. Para esse texto, será apresentado a razão entre o somatório dos fatores capital e trabalho, pela população de cada microrregião mineira. Dessa forma, será possível identificar em quais regiões se localizam as regiões com maior valor adicionado per capita no Estado.
+
+
 Nesse aspecto, destacaram-se Uberlândia, com um valor adicionado per capita, mensurado por: fatores primários/população de R$128.581 seguido por Ouro Preto (R$106.260); Pouso Alegre (R$52.827); Conselheiro Lafaiete (R$50.206) e Juiz de Fora (R$44.089). Nessa métrica a região metropolitana e a capital Belo Horizonte não figura entre as principais regiões com alto valor adicionado em capital e trabalho, ocupando o nono lugar com (R$31,231). A figura 5 apresenta o mapa com essa relação auxilia na compreensão da distribuição espacial desse indicador. 
 
 
+<div class="map-title">
+  Figura 5: Razão entre Capital-Trabalho e População em MG
+</div>
+```{r echo=FALSE}
+plot_fatores
+```
+<div class="map-source">
+  Fonte: Elaborado pelos autores com base no modelo SOLAR-MG.
+</div>
+
 Nota-se maior concentração de valor adicionado nas regiões centrais do Estado, com prevalência em Ouro Preto, e nas regiões nas adjacências de Belo Horizonte. No Triângulo Mineiro, o destaque é Uberlândia. Em termos espaciais, percebe-se maior destaque para a porção do sudoeste do estado. O Norte de Minas e o Vale do Mucuri e Jequitinhonha, apresentam os menores valores adicionados, o que corrobora com a premissa da heterogeneidade estadual, também no âmbito da formação de renda. Tal região apresenta os menores indicadores de atividade produtiva, como também sob a ótica da razão entre capital-trabalho e a população da região. 
+
+
 Com base nos dados apresentados pode-se entender de forma geral a dinâmica econômica do Estado de Minas Gerais, notando uma heterogeneidade no que se refere aos fluxos comerciais, e um predomínio de regiões como Belo Horizonte, Uberlândia, Uberaba e Juiz de Fora, nos principais fluxos comerciais do Estado. 
+
+
 Entender a estrutura espacial da economia mineira e a distribuição econômica no Estado, nos auxilia a interpretar a solução dos exercícios de simulação, que serão realizados por meio de modelos de equilíbrio geral computável. No caso do presente projeto, será avaliado a economia gerada para as famílias no modelo, por meio da redução do valor pago por eletricidade. Portanto, esse texto teve como objetivo apresentar de maneira regional o funcionamento da economia mineira no modelo de equilíbrio geral computável proposto, a partir do qual se darão os experimentos simulados. 
-
-
