@@ -3,6 +3,7 @@ library(ggplot2)
 library(readxl)
 library(dplyr)
 library(viridis)
+library(colorspace)
 
 options(scipen = 999)
 
@@ -17,7 +18,7 @@ shp_merge <- merge(shp_minas, dados[,c("cod", "prod","consumo","investimento","g
 
 plot_consumo <- ggplot(data = shp_merge) +
   geom_sf(aes(fill = consumo)) +
-  scale_fill_continuous_sequential(palette = "Heat") +  
+  scale_fill_continuous_sequential(palette = "Heat") +
   theme_minimal() +
   labs(fill = "Consumo", title = "Consumo das Famílias")
 
