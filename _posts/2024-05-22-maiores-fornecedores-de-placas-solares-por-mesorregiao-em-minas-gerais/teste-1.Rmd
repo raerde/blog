@@ -15,7 +15,7 @@ author:
     url: ../../pesquisadores/victor_valerio.html
     affiliation: "UNIFEI"
     affiliation_url: https://unifei.edu.br
-date: 2024-05-22
+date: 2025-02-20
 slug: "maiores-fornecedores-de-placas-solares-por-mesorregiao-em-minas-gerais"
 output:
   distill::distill_article:
