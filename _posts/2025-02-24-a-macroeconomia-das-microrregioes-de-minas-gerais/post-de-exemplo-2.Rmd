@@ -3,8 +3,13 @@ title: "A Macroeconomia das Microrregiões de Minas Gerais"
 description: |
   Explore a dinâmica econômica de Minas Gerais: entenda as desigualdades regionais e o impacto na distribuição de renda e na adoção de novas tecnologias. Descubra como os dados revelam o papel estratégico de microrregiões como Belo Horizonte e Uberlândia no cenário estadual.
 author:
-  - name: X
-    affiliation: Universidade Federal de Itajubá
+  - name: "Paulo Augusto"
+    affiliation: "UNIFEI"
+    affiliation_url: https://unifei.edu.br
+    url: ../../pesquisadores/paulo_augusto.html
+  - name: "Victor Valério"
+    url: ../../pesquisadores/victor_valerio.html
+    affiliation: "UNIFEI"
     affiliation_url: https://unifei.edu.br
 date: 2025-02-24
 slug: "a-macroesconomia-das-microrregioes-de-minas-gerais"
