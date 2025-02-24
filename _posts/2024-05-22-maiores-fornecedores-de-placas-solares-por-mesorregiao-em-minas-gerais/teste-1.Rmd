@@ -3,10 +3,6 @@ title: "Maiores fornecedores de placas solares por mesorregião em Minas Gerais"
 description: |
   Dados referentes ao ano de 2023.
 author: 
-  - name: "Bruno Luppe"
-    affiliation: "UNIFEI"
-    affiliation_url: https://unifei.edu.br
-    url: ../../pesquisadores/bruno_luppe.html
   - name: "Paulo Augusto"
     affiliation: "UNIFEI"
     affiliation_url: https://unifei.edu.br
