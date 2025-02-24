@@ -2537,7 +2537,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
   <script src="site_libs/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
-  <!-- Código em JS que substitui o "Search..." da barra de pesquisa por "Buscar..." -->
+  <!-- CC3digo em JS que substitui o "Search..." da barra de pesquisa por "Buscar..." -->
   <script>
     document.addEventListener("DOMContentLoaded", function() {
       var searchBox = document.querySelector('#distill-search');
@@ -2546,28 +2546,28 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       }
     });
   </script>
-  <!-- Código em JS que traduz a data de publicação no início do blog -->
+  <!-- CC3digo em JS que traduz a data de publicaC'C#o no inC-cio do blog -->
   <script>
     document.addEventListener("DOMContentLoaded", function() {
-      // Altera os rótulos dos autores
+      // Altera os rC3tulos dos autores
       var authorLabels = document.querySelectorAll('.dt-author');
       authorLabels.forEach(function(authorLabel) {
         authorLabel.textContent = '' + authorLabel.textContent;
       });
       
-       // Altera os rótulos das afiliações
+       // Altera os rC3tulos das afiliaC'C5es
       var affiliationLabels = document.querySelectorAll('.dt-affiliation');
       affiliationLabels.forEach(function(affiliationLabel) {
-        affiliationLabel.textContent = 'Afiliação: ' + affiliationLabel.textContent;
+        affiliationLabel.textContent = 'AfiliaC'C#o: ' + affiliationLabel.textContent;
       });
       
-      // Altera os rótulos das datas
+      // Altera os rC3tulos das datas
       var dateLabels = document.querySelectorAll('.publishedDate');
       dateLabels.forEach(function(dateLabel) {
         dateLabel.textContent = 'Data: ' + dateLabel.textContent;
       });
 
-      // Alterar o formato da data, se necessário
+      // Alterar o formato da data, se necessC!rio
       dateLabels.forEach(function(dateElement) {
         var dateText = dateElement.textContent.replace('Data: ', ''); // Remove o prefixo "Data: "
       // Supondo que a data esteja no formato "Month Day, Year"
