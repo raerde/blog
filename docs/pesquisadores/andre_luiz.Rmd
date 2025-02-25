@@ -7,7 +7,9 @@ links:
 output:
   postcards::trestles
 ---
-
+<nav>
+  <a href="https://raerde.com.br" style="font-size: 18px; display: inline-block; margin-bottom: 20px;">⬅️ Retornar para o RAERDE</a>
+</nav>
 
 <div style="text-align: justify">
 
@@ -16,4 +18,3 @@ output:
 
 
 Graduado em Administração pela Universidade Federal de Lavras (UFLA). Mestre em Engenharia de Produção pela Universidade Federal de Itajubá (UNIFEI) e Doutor em Administração pela UFLA. Professor efetivo da UNIFEI, alocado no Instituto de Engenharia de Produção e Gestão (IEPG), ministra disciplinas da área de finanças, das quais se destacam: Engenharia Econômica, Custos, Matemática financeira e Finanças Corporativas. Docente permanente do Mestrado Profissional em Administração (MPA) da UNIFEI, orientando pesquisas relacionadas ao tema Educação Financeira. Coordenador do Curso de Especialização em Educação Financeira (EEF) e do Núcleo de Pesquisa e Desenvolvimento em Educação Financeira (DENARIUS) que, em parceria com empresas públicas e privadas, desenvolve projetos de extensão em Educação Financeira. De 2018 a 2021 ocupou o cargo de Diretor do IEPG da UNIFEI. A partir de 2023, foi eleieto Coordenador do Mestrado Profissional em Administração da UNIFEI.
-

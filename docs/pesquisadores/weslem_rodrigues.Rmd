@@ -7,7 +7,9 @@ links:
 output:
   postcards::trestles
 ---
-
+<nav>
+  <a href="https://raerde.com.br" style="font-size: 18px; display: inline-block; margin-bottom: 20px;">⬅️ Retornar para o RAERDE</a>
+</nav>
 
 <div style="text-align: justify">
 
@@ -16,4 +18,3 @@ output:
 
 
 Possui graduação em Ciências Econômicas pela Universidade Federal de Juiz de Fora (2006), mestrado em Economia Aplicada pela Universidade Federal de Minas Gerais (2009) e Doutorado em Teoria Econômica pela Universidade de São Paulo (IPE/USP). Tem experiência na área de Economia com atuação em linhas de pesquisa como economia do meio ambiente e dos recursos naturais, desenvolvimento econômico, análise regional e setorial (principalmente agrícola, energia, transporte e comunicação) e comércio internacional. Os principais métodos aplicados nos estudos desenvolvidos são modelos econométricos, modelos de equilíbrio geral computável e modelos de insumo-produto.
-
