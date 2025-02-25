@@ -1,0 +1,18 @@
+---
+title: 'Felipe De Souza Oliveira <br> UFJF'
+image: 'http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K1103976A0'
+links:
+  - label: LATTES
+    url: 'http://lattes.cnpq.br/6463933193936993'
+output:
+  postcards::trestles
+---
+
+
+<div style="text-align: justify">
+
+
+## Sobre o pesquisador
+
+
+Possui graduação em Ciências Econômicas pela Universidade Federal de Juiz de Fora (2022), mestrado em Econominia Aplicada pela PPGE/UFJF(2025). Atualmente, é doutorando em Economia aplicada pela PPGE/UFJF. Participa no projeto de pesquisa intitulado: Impactos Econômicos da Geração Solar Fotovoltaica Distribuída no Estado de Minas Gerais (2023 - atualmente ). Além de ser membro da Rede de Análise em Energia Renovável e Desenvolvimento Econômico (RAERDE) (2023 - atualmente). Tem experiência na área de Economia, com ênfase em Métodos Quantitativos em Economia.

@@ -1,0 +1,18 @@
+---
+title: 'Guilherme Perobelli Salgueiro <br> UFMG'
+image: 'http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K9228930T7'
+
+links:
+  - label: LATTES
+    url: 'http://lattes.cnpq.br/5234421603742690'
+output:
+  postcards::trestles
+---
+
+
+<div style="text-align: justify">
+
+
+## Sobre o pesquisador
+
+Possui graduação em Relações Internacionais pela Pontifícia Universidade Católica de Minas Gerais (2020). Mestrado em Economia pela Universidade Federal de Juiz de Fora, e atualmente é Doutorando em Economia pela Universidade Federal de Minas Gerais. Tem experiência na área de Economia, com ênfase em Economia Internacional e Economia Regional e modelos de Equilíbrio Geral Computável.

@@ -1,0 +1,18 @@
+---
+title: 'Filipe Vasconcelos Rocha <br> UFJF'
+image: 'http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K8642879Y9'
+links:
+  - label: LATTES
+    url: 'http://lattes.cnpq.br/2592519680974506'
+output:
+  postcards::trestles
+---
+
+
+<div style="text-align: justify">
+
+
+## Sobre o pesquisador
+
+
+Possui graduação em Ciências Econômicas pela Universidade Federal Rural do Rio de Janeiro (2019), mestrado em Economia Regional e Desenvolvimento pela Universidade Federal Rural do Rio de Janeiro (2022) e atual doutorando em Economia na Universidade Federal de Juiz de Fora na qual é pesquisador do Laboratório de Análises Territoriais e Setoriais (LATES/UFJF) atuando sinergicamente nos seguintes temas: Métodos Quantitativos, Projeções Econômicas, Desenvolvimento Regional e Urbano, Meio Ambiente, Economia Internacional, Cadeias Globais de Valor e Política Fiscal.

@@ -1,0 +1,18 @@
+---
+title: 'Rhayanna Fernanda da Silva Vasconcelos <br> UNIFEI'
+image: 'http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4399118Z9'
+links:
+  - label: LATTES
+    url: 'http://lattes.cnpq.br/7696625100818920'
+output:
+  postcards::trestles
+---
+
+
+<div style="text-align: justify">
+
+
+## Sobre o pesquisador
+
+
+Graduada em Admnistração pela Universidade Federal de Itajubá (2020), especialista em Direito Tributário e Aduaneiro pela Pontifícia Universidade Católica de Minas Gerais , graduanda de Direito pela Unopar Anhanguera Universidade, com previsão de conclusão para junho de 2025, mestranda em Administração - Finanças aplicadas a tomada de decisão pela Universidade Federal de Itajubá.

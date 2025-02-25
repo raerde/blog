@@ -3,15 +3,15 @@ title: "A Macroeconomia das Microrregiões de Minas Gerais"
 description: |
   Explore a dinâmica econômica de Minas Gerais: entenda as desigualdades regionais e o impacto na distribuição de renda e na adoção de novas tecnologias. Descubra como os dados revelam o papel estratégico de microrregiões como Belo Horizonte e Uberlândia no cenário estadual.
 author:
-  - name: "Edson Domingues"
+  - name: "Edson Paulo Domingues"
     affiliation: "UFMG"
     affiliation_url: https://ufmg.br
     url: ../../pesquisadores/edson_paulo.html
-  - name: "Fernando Perobelli"
+  - name: "Fernando Salgueiro Perobelli"
     url: ../../pesquisadores/fernando_salgueiro.html
     affiliation: "UFJF"
     affiliation_url: https://ufmg.br
-  - name: "Guilherme Perobelli"
+  - name: "Guilherme Perobelli Salgueiro"
     url: ../../pesquisadores/guilherme_perobelli.html
     affiliation: "UFMG"
     affiliation_url: https://ufmg.br   

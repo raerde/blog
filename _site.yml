@@ -23,14 +23,23 @@ navbar:
       - text: 'ANDRÉ LUIZ MEDEIROS' 
         href: pesquisadores/andre_luiz.html 
         
-      - text: 'BRUNO LUPPE'
-        href: pesquisadores/bruno_luppe.html 
+      - text: 'ANDREZA DE AGUIAR' 
+        href: pesquisadores/andreza_aguiar.html 
         
       - text: 'EDSON PAULO' 
         href: pesquisadores/edson_paulo.html 
+       
+      - text: 'FELIPE DE SOUZA' 
+        href: pesquisadores/felipe_de_souza.html
         
       - text: 'FERNANDO SALGUEIRO' 
-        href: pesquisadores/fernando_salgueiro.html 
+        href: pesquisadores/fernando_salgueiro.html
+
+      - text: 'FILIPE VASCONCELOS' 
+        href: pesquisadores/filipe_vasconcelos.html
+        
+      - text: 'GUILHERME PEROBELLI'
+        href: pesquisadores/guilherme_perobelli.html 
         
       - text: 'MOISÉS DINIZ'
         href: pesquisadores/moises_diniz.html 
@@ -40,6 +49,9 @@ navbar:
         
       - text: 'RAFAEL MORAIS'
         href: pesquisadores/rafael_morais.html 
+
+      - text: 'RHAYANNA FERNANDA'
+        href: pesquisadores/rhayanna_fernanda.html
         
       - text: 'VICTOR VALÉRIO'
         href: pesquisadores/victor_valerio.html     

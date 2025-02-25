@@ -1,0 +1,18 @@
+---
+title: 'Andreza de Aguiar Hugo <br> UNIFEI'
+image: 'http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K8848483U1'
+links:
+  - label: LATTES
+    url: 'http://lattes.cnpq.br/1755604019540757'
+output:
+  postcards::trestles
+---
+
+
+<div style="text-align: justify">
+
+
+## Sobre o pesquisador
+
+
+Atualmente realiza pós-doutorado no Programa de Pós-Graduação em Engenharia de Produção da Universidade Federal de Itajubá. Doutora (2024) e Mestre (2020) em Engenharia de Produção pela Universidade Federal de Itajubá, na área de Sistemas de Produção e Logística. Graduada em Engenharia de Produção pela Universidade Federal de Ouro Preto (2014) e pós-graduada em Gerenciamento de Projetos pela Pontifícia Universidade Católica de Minas Gerais (2016). Durante a graduação, estudou por um semestre na Universidade de Reutlingen na Alemanha, onde pôde fazer mobilidade acadêmica. Tem experiência no setor industrial de cerâmicas vermelhas e no setor administrativo de construção civil. Suas pesquisas atuais abrangem as áreas de Economia Circular, Economia Circular na Cadeia de Suprimentos de Moda, Gestão de Resíduos do Serviço de Saúde, Gestão de Resíduos, Logística, Tomada de Decisão, Cadeia de Suprimentos Verde, Avaliação de Indicadores de Sustentabilidade.

@@ -3,18 +3,18 @@ title: "A distribuição espacial da geração fotovoltaica em Minas Gerais"
 description: |
   Por que algumas regiões de Minas Gerais se destacam na geração de energia solar enquanto outras ficam para trás? Neste texto, analisamos a distribuição espacial da geração fotovoltaica no estado, explorando como fatores como renda e irradiação influenciam esse cenário. Descubra quais regiões têm maior potencial inexplorado e como políticas públicas podem impulsionar a expansão da energia solar.
 author:
-  - name: "Edson Domingues"
+  - name: "Edson Paulo Domingues"
     affiliation: "UFMG"
     affiliation_url: https://ufmg.br
     url: ../../pesquisadores/edson_paulo.html
-  - name: "Fernando Perobelli"
+  - name: "Fernando Salgueiro Perobelli"
     url: ../../pesquisadores/fernando_salgueiro.html
     affiliation: "UFJF"
     affiliation_url: https://ufmg.br
-  - name: "Guilherme Perobelli"
+  - name: "Guilherme Perobelli Salgueiro"
     url: ../../pesquisadores/guilherme_perobelli.html
     affiliation: "UFMG"
-    affiliation_url: https://ufmg.br  
+    affiliation_url: https://ufmg.br 
 date: 2025-02-24
 slug: "a-distribuicao-espacial-da-geracao-fotovoltaica-em-minas-gerais"
 output:
