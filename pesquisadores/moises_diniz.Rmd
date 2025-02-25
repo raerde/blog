@@ -7,7 +7,9 @@ links:
 output:
   postcards::trestles
 ---
-
+<nav>
+  <a href="https://raerde.com.br" style="font-size: 18px; display: inline-block; margin-bottom: 20px;">⬅️ Retornar para o RAERDE</a>
+</nav>
 
 <div style="text-align: justify">
 
@@ -15,5 +17,4 @@ output:
 ## Sobre o pesquisador
 
 
-Moisés Diniz Vassallo é graduado em economia pela FEA-USP de São Paulo, mestre em engenharia de infraestrutura aeronáutica pelo ITA de São José dos Campos e doutor em teoria econômica também pela FEA-USP de São Paulo. Suas áreas de atuação são economia dos transportes, organização industrial, turismo e análise de impactos econômicos. Atualmente é professor adjunto no Instituto de Engenharia de Produção e Gestão da UNIFEI. 
-
+Moisés Diniz Vassallo é graduado em economia pela FEA-USP de São Paulo, mestre em engenharia de infraestrutura aeronáutica pelo ITA de São José dos Campos e doutor em teoria econômica também pela FEA-USP de São Paulo. Suas áreas de atuação são economia dos transportes, organização industrial, turismo e análise de impactos econômicos. Atualmente é professor adjunto no Instituto de Engenharia de Produção e Gestão da UNIFEI.

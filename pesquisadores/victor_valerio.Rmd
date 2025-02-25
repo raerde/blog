@@ -7,7 +7,9 @@ links:
 output:
   postcards::trestles
 ---
-
+<nav>
+  <a href="https://raerde.com.br" style="font-size: 18px; display: inline-block; margin-bottom: 20px;">⬅️ Retornar para o RAERDE</a>
+</nav>
 
 <div style="text-align: justify">
 
@@ -23,4 +25,3 @@ Engenharia de Produção e Gestão. É revisor de congressos nacionais na área 
 investimentos, pesquisa operacional, projetos de energia renovável e previsão. Tem experiência 
 profissional e acadêmica na área de economia e engenharia de produção, com ênfase em Métodos e
 Modelos Matemáticos, Econométricos e Estatísticos.
-

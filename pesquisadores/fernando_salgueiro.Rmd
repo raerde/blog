@@ -7,7 +7,9 @@ links:
 output:
   postcards::trestles
 ---
-
+<nav>
+  <a href="https://raerde.com.br" style="font-size: 18px; display: inline-block; margin-bottom: 20px;">⬅️ Retornar para o RAERDE</a>
+</nav>
 
 <div style="text-align: justify">
 
@@ -16,4 +18,3 @@ output:
 
 
 Possui graduação em Ciências Econômicas pela Universidade Federal de Juiz de Fora (1992), mestrado em Economia pela Universidade Federal Fluminense (1995) e doutorado em Economia pela Universidade de São Paulo (2004).Professor Titular do Departamento de Economia da Universidade Federal de Juiz de Fora, onde atua na graduação e na pós-graduação, lecionando cursos na área de Economia Regional e Urbana, Insumo-produto e Equilíbrio Geral Computável, onde também é pesquisador do Laboratório de Análises Territoriais e Setoriais (LATES/UFJF), Vice-Diretor da Faculdade de Economia da Universidade Federal de Juiz de Fora (FE/UFJF). Atua como Pesquisador Associado do NEREUS/USP, Membro do Conselho Editorial da Revista Estudos Econômicos - USP (2020 - 2023). e Coeditor da Revista de Estudos Econômicos da USP (2022 - ). Membro do Conselho Diretor da Associação Internacional de Insumo-produto (2018-2020), como membro do Corpo Editorial da Revista Portuguesa de Estudos Regionais (desde 2012), do Corpo Editorial da Revista Brasileira de Estudos Regionais e Urbanos - Revista da ABER (desde 2010) e cumpre mandato como membro do Comitê de Assessoramento da Área de Economia da Conselho Nacional de Pesquisa - CNPq (2017-2020). Membro da Câmara de Assessoramento da FAPEMIG na área de Ciências Sociais Aplicadas (2021- 2023). Como consultor tem experiência em projetos internacionais - Banco Interamericano de Desenvolvimento (BID), Banco Africano de Desenvolvimento (BAD), bem como em projetos nacionais - Federação das Indústrias de Minas Gerais (FIEMG), Empresa de Pesquisa Energética (EPE), Superintendência do Desenvolvimento da Amazônia (SUDAM), Centrais Elétricas de Minas Gerais (CEMIG), Centrais Elétricas de Pernambuco (CELPE), Instituto de Pesquisas Econômicas Aplicadas (IPEA), dentre outros. Ocupou o cargo de presidente da Associação Brasileira de Estudos Regionais e Urbanos - ABER (2010- 2012) e Pró-reitor de pós-graduação da Universidade Federal de Juiz de Fora - MG.
-
