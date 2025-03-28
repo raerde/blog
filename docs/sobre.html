@@ -2194,7 +2194,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   html {
     /*-- Principais Tamanhos de fontes --*/
-    --title-size:      50px;    /*-- TÍTULOS DOS POSTS E TÍTULOS DOS TEMAS --*/
+    --title-size:      30px;    /*-- TÍTULOS DOS POSTS E TÍTULOS DOS TEMAS --*/
     --body-size:       14px;    /*-- TEXTOS DOS TEMAS --*/
     --code-size:       14px;    /*-- CÓDIGO NO POST --*/
     --aside-size:      14px;
@@ -2265,6 +2265,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   d-title p {
     font-weight: bold;
+    text-align: justify; /* Justifica o texto resumo de dentro da publicação*/
     color:       #384955;
     font-size:   14px;
   }
@@ -2274,8 +2275,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /*-- TEXTO DO RESUMO DO ARTIGO E DOS TEMAS --*/
 
 
-  d-article p, d-article ul, d-article ol, d-article blockquote {
+  d-article p, d-article ul, d-article ol, d-article blockquote { /* Texto da descrição da publicação
+                                                                      na pagina inicial do blog*/ 
     font-weight: bold;
+    text-align: justify;
     color:       #384955;
     font-size:   14px;
   }
@@ -2285,7 +2288,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /*-- TEXTO DO RESUMO DO ARTIGO E DOS TEMAS --*/
 
 
-  .posts-list .metadata {
+  .posts-list .metadata { /* Cabeçalho lateral de cada post na página inicial
+                             do blog (data de publicação e autores) */ 
     font-weight: bold;
     color:       #384955;
     font-size:   14px;
@@ -2307,8 +2311,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   h1, h2, h3, h4, h5, h6, .posts-list .post-preview h2, .posts-list .description h2 {
     font-family: 'Archivo Black';
     font-weight: bold;
+    text-align: justify; /* Justifica o título do post*/
     color:       #006B94;/* Cor do título do post*/
-    font-size:   26px;
+    font-size:   20px;
   }
 
 

@@ -8,6 +8,7 @@ author:
     affiliation_url: https://unifei.edu.br
     url: ../../pesquisadores/andreza_aguiar.html
 date: 2025-03-28
+preview: imagem_post_energia_solar.jpg
 output:
   distill::distill_article:
     self_contained: false
