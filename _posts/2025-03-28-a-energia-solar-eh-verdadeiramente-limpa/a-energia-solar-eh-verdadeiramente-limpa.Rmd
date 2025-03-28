@@ -1,9 +1,11 @@
 ---
 title: "A Energia Solar é Verdadeiramente Limpa? Uma análise sobre os problemas dos resíduos fotovoltaicos"
 description: |
-  A short description of the post.
+  A energia solar é amplamente reconhecida como uma alternativa sustentável para a geração de eletricidade. No entanto, o descarte dos painéis fotovoltaicos levanta questionamentos sobre o real impacto ambiental dessa tecnologia. Este artigo discute os desafios relacionados aos resíduos fotovoltaicos, a necessidade de regulamentação e as possíveis soluções para garantir que a energia solar seja verdadeiramente limpa.
 author:
   - name: Andreza de Aguiar Hugo
+    affiliation: "UNIFEI"
+    affiliation_url: https://unifei.edu.br
     url: ../../pesquisadores/andreza_aguiar.html
 date: 2025-03-28
 output:
